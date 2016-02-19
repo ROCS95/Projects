@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Puzzle.Entidades
 {
-    class Dimension
+    public class Dimension
     {
 
     }

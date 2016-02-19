@@ -23,3 +23,8 @@ C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Pu
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.JuegoPrincipal.resources
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.Properties.Resources.resources
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.csproj.GenerateResource.Cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.exe
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Npgsql.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Npgsql.xml
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.MiCuenta.resources

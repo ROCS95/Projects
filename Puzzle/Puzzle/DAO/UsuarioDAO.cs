@@ -35,38 +35,43 @@ namespace Puzzle.DAO
                 return resultado;
             }
         }
-        public int InsertarFoto(Foto foto)
-        {
-            try
-            {
-                using (NpgsqlConnection cn = new NpgsqlConnection(Configuracion.CadenaConexion))
-                {
-                    cn.Open();
-                    string sql = @"INSERT INTO foto (foto) VALUES (:foto) RETURNING id";
-                    NpgsqlCommand cmd = new NpgsqlCommand(sql, cn);
-                    MemoryStream stream = new MemoryStream();
-                  //  foto.Imagen.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
-                    byte[] pic = stream.ToArray();
-                    cmd.Parameters.AddWithValue(":foto", pic);
-                    return Convert.ToInt32(cmd.ExecuteScalar());
-                }
-            }
-            catch (Exception)
-            {
 
-                throw;
-            }
-                
-            }
-        public Usuario Insertar(Usuario u)
+        internal Usuario CagraUser(Usuario us)
         {
             Usuario resultado = new Usuario();
             //Crear una conexio a partir de la configuracion
             using (NpgsqlConnection con = new NpgsqlConnection(Configuracion.CadenaConexion))
             {
                 //Lo que vamos a ejecutar
-                string sql = "INSERT INTO  participante(usuario , contrasena, nombre, correo)"
-                    + " values (:u,:c,:n,:c)"; 
+                string sql = " select * from participante where usuario = :u";
+                //Abrimos la conexion
+                con.Open();
+                //Creamos el comand
+                NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("u", us.User);
+                NpgsqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    resultado.User = reader.GetString(3);
+                    resultado.Nombre = reader.GetString(5);
+                    resultado.Contrasenia = reader.GetString(4);
+                    resultado.Correo = reader.GetString(7);
+                    resultado.IdImagen = Int32.Parse(reader.GetString(2));
+
+                }
+                return resultado;
+            }
+        }
+
+        public Usuario Insertar(Usuario u, int idImagen)
+        {
+            Usuario resultado = new Usuario();
+            //Crear una conexio a partir de la configuracion
+            using (NpgsqlConnection con = new NpgsqlConnection(Configuracion.CadenaConexion))
+            {
+                //Lo que vamos a ejecutar
+                string sql = "INSERT INTO  participante(usuario , contrasena, nombre, correo, id_imagen)"
+                    + " values (:u,:c,:n,:c,:i)"; 
                 //Abrimos la conexion
                 con.Open();
                 //Creamos el comand
@@ -75,6 +80,7 @@ namespace Puzzle.DAO
                 cmd.Parameters.AddWithValue("c", u.Contrasenia);
                 cmd.Parameters.AddWithValue("n", u.Nombre);
                 cmd.Parameters.AddWithValue("c", u.Correo);
+                cmd.Parameters.AddWithValue("i", idImagen);
                 cmd.ExecuteNonQuery();
                 return resultado;
             }

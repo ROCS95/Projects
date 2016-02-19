@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Puzzle.Entidades
 {
-    class Categoria
+    public class Categoria
     {
 
     }

@@ -203,7 +203,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::Puzzle.Properties.Resources._635876481669892194;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(600, 360);
+            this.ClientSize = new System.Drawing.Size(629, 385);
             this.Controls.Add(this.lvlfoto);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtUser);

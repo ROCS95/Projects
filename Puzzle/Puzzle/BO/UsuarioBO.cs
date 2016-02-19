@@ -21,9 +21,14 @@ namespace Puzzle.BO
         {
             return udao.Autentificar(u);
         }
-        public Usuario InsertUsuario(Usuario u)
+        public Usuario InsertUsuario(Usuario u, int idImagen)
         {
-            return udao.Insertar(u);
+            return udao.Insertar(u, idImagen);
+        }
+
+        internal Usuario CargarUser(Usuario us)
+        {
+            return udao.CagraUser(us);
         }
     }
 }

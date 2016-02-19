@@ -30,7 +30,7 @@ namespace Puzzle.GUI
             u = ubo.AutentificarseUsuario(u);
             if (u.Id > 0)
             {
-                label1.Text = "INICIÓ SECIÓN";
+                MiCuenta mi = new MiCuenta(u);
             }
             else {
                 label1.Text = "DATOS INCORRECTOS";

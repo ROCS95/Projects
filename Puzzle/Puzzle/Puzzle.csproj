@@ -50,8 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\ImagenBO.cs" />
     <Compile Include="BO\UsuarioBO.cs" />
     <Compile Include="DAO\Configuracion.cs" />
+    <Compile Include="DAO\ImagenDAO.cs" />
     <Compile Include="DAO\UsuarioDAO.cs" />
     <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\Dimension.cs" />
@@ -75,6 +77,12 @@
     <Compile Include="GUI\JuegoPrincipal.Designer.cs">
       <DependentUpon>JuegoPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\MiCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MiCuenta.Designer.cs">
+      <DependentUpon>MiCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Form1.resx">
@@ -85,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\JuegoPrincipal.resx">
       <DependentUpon>JuegoPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MiCuenta.resx">
+      <DependentUpon>MiCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,12 +121,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LOGIN.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Registrar.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\635876481669892194.jpg" />
