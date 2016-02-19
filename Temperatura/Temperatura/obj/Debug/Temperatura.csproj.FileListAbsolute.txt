@@ -1,0 +1,8 @@
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\bin\Debug\Temperatura.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\bin\Debug\Temperatura.exe
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\bin\Debug\Temperatura.pdb
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\obj\Debug\Temperatura.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\obj\Debug\Temperatura.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\obj\Debug\Temperatura.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\obj\Debug\Temperatura.exe
+c:\users\robert\documents\visual studio 2015\Projects\Temperatura\Temperatura\obj\Debug\Temperatura.pdb

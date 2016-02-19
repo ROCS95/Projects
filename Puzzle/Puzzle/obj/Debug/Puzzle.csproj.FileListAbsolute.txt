@@ -1,0 +1,25 @@
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.exe.config
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.exe
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.pdb
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.Properties.Resources.resources
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.csproj.GenerateResource.Cache
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.exe
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.pdb
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.csprojResolveAssemblyReference.cache
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.Form1.resources
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Npgsql.dll
+c:\users\yessenia\documents\visual studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Npgsql.xml
+C:\Users\yessenia\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.Form2.resources
+C:\Users\yessenia\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.JuegoPrincipal.resources
+E:\Puzzle\Puzzle\bin\Debug\Puzzle.exe.config
+E:\Puzzle\Puzzle\obj\Debug\Puzzle.exe
+E:\Puzzle\Puzzle\obj\Debug\Puzzle.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\bin\Debug\Puzzle.exe.config
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.exe
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.Form1.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.Form2.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.GUI.JuegoPrincipal.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.Properties.Resources.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\Puzzle\Puzzle\obj\Debug\Puzzle.csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\bin\Debug\Multiplicar.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\bin\Debug\Multiplicar.exe
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\bin\Debug\Multiplicar.pdb
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.exe
+c:\users\robert\documents\visual studio 2015\Projects\Multiplicar\Multiplicar\obj\Debug\Multiplicar.pdb

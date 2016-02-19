@@ -1,0 +1,9 @@
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\bin\Debug\Mensajes.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\bin\Debug\Mensajes.exe
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\bin\Debug\Mensajes.pdb
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.exe
+c:\users\robert\documents\visual studio 2015\Projects\Mensajes\Mensajes\obj\Debug\Mensajes.pdb

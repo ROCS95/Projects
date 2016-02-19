@@ -1,0 +1,8 @@
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\bin\Debug\visorImagenes.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\bin\Debug\visorImagenes.exe
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\bin\Debug\visorImagenes.pdb
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\obj\Debug\visorImagenes.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\obj\Debug\visorImagenes.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\obj\Debug\visorImagenes.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\obj\Debug\visorImagenes.exe
+c:\users\robert\documents\visual studio 2015\Projects\visorImagenes\visorImagenes\obj\Debug\visorImagenes.pdb

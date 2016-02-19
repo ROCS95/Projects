@@ -1,0 +1,11 @@
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\bin\Debug\formscall.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\bin\Debug\formscall.exe
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\bin\Debug\formscall.pdb
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.Form2.resources
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.Form3.resources
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.exe
+c:\users\robert\documents\visual studio 2015\Projects\formscall\formscall\obj\Debug\formscall.pdb

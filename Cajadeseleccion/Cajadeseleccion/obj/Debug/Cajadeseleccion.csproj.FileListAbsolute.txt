@@ -1,0 +1,9 @@
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\bin\Debug\Cajadeseleccion.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\bin\Debug\Cajadeseleccion.exe
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\bin\Debug\Cajadeseleccion.pdb
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.exe
+c:\users\robert\documents\visual studio 2015\Projects\Cajadeseleccion\Cajadeseleccion\obj\Debug\Cajadeseleccion.pdb

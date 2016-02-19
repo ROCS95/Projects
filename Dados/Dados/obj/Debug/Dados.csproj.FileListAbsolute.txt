@@ -1,0 +1,9 @@
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\bin\Debug\Dados.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\bin\Debug\Dados.exe
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\bin\Debug\Dados.pdb
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.Form1.resources
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.exe
+c:\users\robert\documents\visual studio 2015\Projects\Dados\Dados\obj\Debug\Dados.pdb
