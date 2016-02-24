@@ -20,9 +20,9 @@ namespace Puzzle.BO
             idao = new ImagenDAO();
         }
 
-        internal int InsertImagen(byte[] binData)
+        internal void InsertImagen(byte[] binData)
         {
-           return idao.InsertImage(binData);
+           idao.InsertImage(binData);
         }
 
         internal Image CagarImagen(Usuario u)

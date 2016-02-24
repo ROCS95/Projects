@@ -31,6 +31,8 @@ namespace Puzzle.GUI
             if (u.Id > 0)
             {
                 MiCuenta mi = new MiCuenta(u);
+                mi.Show();
+                this.Hide();
             }
             else {
                 label1.Text = "DATOS INCORRECTOS";

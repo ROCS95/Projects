@@ -40,8 +40,8 @@ namespace Puzzle.GUI
                 Nombre = txtNombre.Text.Trim(),
                 Correo = txtCorreo.Text.Trim(),
             };
-            idImagen = ibo.InsertImagen(binData);
-            ubo.InsertUsuario(u, idImagen);
+            ibo.InsertImagen(binData);
+            ubo.InsertUsuario(u);
             Form1 log = new Form1();
             log.Show();
             this.Hide();
