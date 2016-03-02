@@ -11,7 +11,7 @@ namespace PuzzleCapas.DAO
         private static string cadenaConexion = String.Format("Server={0};Port={1};" +
                  "User Id={2};Password={3};Database={4};",
                  "localhost", 5432, "postgres",
-                 "SA123456", "puzzle");
+                 "sa123456", "puzzle");
 
         public static string CadenaConexion
         {

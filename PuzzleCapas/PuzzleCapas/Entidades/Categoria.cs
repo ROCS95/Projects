@@ -16,13 +16,5 @@ namespace PuzzleCapas.Entidades
             return Descripcion;
         }
 
-        public override bool Equals(object obj)
-        {
-            if(((Categoria)obj).Id != this.Id)
-            {
-                return false;
-            }
-            return true;
-        }
     }
 }

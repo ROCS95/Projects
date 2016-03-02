@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -30,29 +31,31 @@ namespace PuzzleCapas.GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Categoria> categorias = new List<Categoria>();
-            
-            foreach (Categoria cat in chbCategorias.CheckedItems)
-            {
-                categorias.Add(cat);
-            }
-            Imagen i = new Imagen()
-            {
-                Foto = pbxFoto.Image
-            };
-            Participante p = new Participante()
-            {
-                Usuario = txtUsuario.Text.Trim(),
-                Contrasena = txtContrasena.Text.Trim(),
-                Nombre = txtNombreCompleto.Text.Trim(),
-                Telefono = txtTelefono.Text.Trim(),
-                Correo = txtCorreo.Text.Trim(),
-                Dimension = (Dimension)cbxDimension.SelectedItem,
-                Imagen = i,
-                Categorias = categorias
-            };
             try
             {
+                lblMensaje.Text = "";
+                List<Categoria> categorias = new List<Categoria>();
+
+                foreach (Categoria cat in chbCategorias.CheckedItems)
+                {
+                    categorias.Add(cat);
+                }
+                Imagen i = new Imagen()
+                {
+                    Foto = pbxFoto.Image
+                };
+                Participante p = new Participante()
+                {
+                    Usuario = txtUsuario.Text.Trim(),
+                    Contrasena = txtContrasena.Text.Trim(),
+                    Nombre = txtNombreCompleto.Text.Trim(),
+                    Telefono = txtTelefono.Text.Trim(),
+                    Correo = txtCorreo.Text.Trim(),
+                    Dimension = (Dimension)cbxDimension.SelectedItem,
+                    Imagen = i,
+                    Categorias = categorias
+                };
+
                 if (pbo.Registrar(p, txtContrasenaDos.Text.Trim()))
                 {
                     MessageBox.Show("Usuario registrado con éxito");
@@ -65,35 +68,43 @@ namespace PuzzleCapas.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                string pattern = "[0-9]*:";
+                Regex rgx = new Regex(pattern);
+                lblMensaje.Text = rgx.Replace(ex.Message, "");
             }
         }
 
 
         private void FrmRegistro_Load(object sender, EventArgs e)
         {
-            pbo = new ParticipanteBO();
-            dbo = new DimensionBO();
-            cbo = new CategoriaBO();
-            cbxDimension.DataSource = dbo.CargarDimensiones();
-            chbCategorias.Items.AddRange(cbo.CargarCategorias().ToArray<Categoria>());
-            Participante p = new Participante();
-            foreach (Categoria item in p.Categorias)
+            try
             {
-                int index = chbCategorias.Items.IndexOf(item);
-                if (index >= 0)
-                {
-                    chbCategorias.SetItemChecked(index, true);
-                }
+                lblMensaje.Text = "";
+                pbo = new ParticipanteBO();
+                dbo = new DimensionBO();
+                cbo = new CategoriaBO();
+                cbxDimension.DataSource = dbo.CargarDimensiones();
+                chbCategorias.Items.AddRange(cbo.CargarCategorias().ToArray<Categoria>());
             }
-
+            catch (Exception ex)
+            {
+                lblMensaje.Text = ex.Message.Replace("[0-9]*", "");
+            }
         }
 
         private void pbxFoto_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            try
             {
-                pbxFoto.Image = Image.FromFile(openFileDialog1.FileName);
+                lblMensaje.Text = "";
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    pbxFoto.Image = Image.FromFile(openFileDialog1.FileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = ex.Message;
             }
         }
     }

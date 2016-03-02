@@ -48,6 +48,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pbxFoto = new System.Windows.Forms.PictureBox();
+            this.lblMensaje = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -149,7 +150,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(358, 236);
+            this.button1.Location = new System.Drawing.Point(358, 232);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 13;
@@ -191,7 +192,7 @@
             this.chbCategorias.FormattingEnabled = true;
             this.chbCategorias.Location = new System.Drawing.Point(319, 121);
             this.chbCategorias.Name = "chbCategorias";
-            this.chbCategorias.Size = new System.Drawing.Size(114, 120);
+            this.chbCategorias.Size = new System.Drawing.Size(114, 105);
             this.chbCategorias.TabIndex = 17;
             // 
             // label9
@@ -219,11 +220,21 @@
             this.pbxFoto.TabStop = false;
             this.pbxFoto.Click += new System.EventHandler(this.pbxFoto_Click);
             // 
+            // lblMensaje
+            // 
+            this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje.Location = new System.Drawing.Point(0, 254);
+            this.lblMensaje.Name = "lblMensaje";
+            this.lblMensaje.Size = new System.Drawing.Size(439, 19);
+            this.lblMensaje.TabIndex = 19;
+            this.lblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FrmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 271);
+            this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.chbCategorias);
             this.Controls.Add(this.label8);
@@ -276,5 +287,6 @@
         private System.Windows.Forms.CheckedListBox chbCategorias;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label lblMensaje;
     }
 }

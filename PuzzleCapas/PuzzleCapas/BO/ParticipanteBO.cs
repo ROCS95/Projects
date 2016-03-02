@@ -28,7 +28,10 @@ namespace PuzzleCapas.BO
             {
                 throw new Exception("El usuario es requerido");
             }
-
+            if (participante.Categorias.Count <= 0)
+            {
+                throw new Exception("Seleccione al menos una categoría");
+            }
             if (!participante.Contrasena.Equals(contrasenaDos))
             {
                 throw new Exception("Contraseñas no coinciden");

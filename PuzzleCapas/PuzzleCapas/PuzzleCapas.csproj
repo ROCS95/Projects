@@ -57,7 +57,7 @@
     <Compile Include="DAO\Configuracion.cs" />
     <Compile Include="DAO\DimensionDAO.cs" />
     <Compile Include="DAO\ImagenDAO.cs" />
-    <Compile Include="DAO\ParricipanteDAO.cs" />
+    <Compile Include="DAO\ParticipanteDAO.cs" />
     <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\Dimension.cs" />
     <Compile Include="Entidades\Imagen.cs" />
