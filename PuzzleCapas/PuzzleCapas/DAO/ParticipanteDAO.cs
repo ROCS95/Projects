@@ -52,6 +52,43 @@ namespace PuzzleCapas.DAO
             }
         }
 
+        internal bool Editar(Participante participante, int i)
+        {
+            try
+            {
+
+                ImagenDAO idao = new ImagenDAO();
+                participante.Imagen.Id = idao.InsertarImagen(participante.Imagen);
+                using (NpgsqlConnection con = new NpgsqlConnection(Configuracion.CadenaConexion))
+                {
+                    con.Open();
+                    string sql = @"INSERT INTO participante(
+                                id_imagen, usuario, contrasena, nombre,
+                                telefono, correo, id_dimension) VALUES (
+                                :ima, :usu, :con, :nom, :tel, :cor, :dim) returning id";
+                    NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+
+                    cmd.Parameters.AddWithValue("ima", participante.Imagen.Id);
+                    cmd.Parameters.AddWithValue("usu", participante.Usuario);
+                    cmd.Parameters.AddWithValue("con", participante.Contrasena);
+                    cmd.Parameters.AddWithValue("nom", participante.Nombre);
+                    cmd.Parameters.AddWithValue("tel", participante.Telefono);
+                    cmd.Parameters.AddWithValue("cor", participante.Correo);
+                    cmd.Parameters.AddWithValue("dim", participante.Dimension.Id);
+
+                    participante.Id = Convert.ToInt32(cmd.ExecuteScalar());
+                    participante.Id = i;
+                    //Registrar categorias 
+                    RegistrarCategorias(participante);
+                    return participante.Id > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         public bool Registrar(Participante participante)
         {
             try

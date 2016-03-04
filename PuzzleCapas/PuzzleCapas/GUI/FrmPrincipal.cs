@@ -31,5 +31,25 @@ namespace PuzzleCapas.GUI
         {
             this.Owner.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            EditarUsuario ed = new EditarUsuario()
+            {
+                Participante = this.Participante
+            };
+            ed.Show(this);
+
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+            pictureBox1_Click(sender, e);
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+            pictureBox1_Click(sender, e);
+        }
     }
 }

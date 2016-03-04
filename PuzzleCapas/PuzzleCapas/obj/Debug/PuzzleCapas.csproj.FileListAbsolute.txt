@@ -36,3 +36,4 @@ C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleCapas\PuzzleCapas\ob
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleCapas\PuzzleCapas\obj\Debug\PuzzleCapas.GUI.FrmRegistro.resources
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleCapas\PuzzleCapas\obj\Debug\PuzzleCapas.Properties.Resources.resources
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleCapas\PuzzleCapas\obj\Debug\PuzzleCapas.csproj.GenerateResource.Cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleCapas\PuzzleCapas\obj\Debug\PuzzleCapas.GUI.EditarUsuario.resources

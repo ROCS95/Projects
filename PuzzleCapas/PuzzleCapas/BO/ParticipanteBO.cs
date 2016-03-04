@@ -39,5 +39,23 @@ namespace PuzzleCapas.BO
 
             return udao.Registrar(participante);
         }
+
+        internal bool Editar(Participante participante, string contrasenaDos, int i)
+        {
+            if (String.IsNullOrEmpty(participante.Usuario))
+            {
+                throw new Exception("El usuario es requerido");
+            }
+            if (participante.Categorias.Count <= 0)
+            {
+                throw new Exception("Seleccione al menos una categoría");
+            }
+            if (!participante.Contrasena.Equals(contrasenaDos))
+            {
+                throw new Exception("Contraseñas no coinciden");
+            }
+
+            return udao.Editar(participante, i);
+        }
     }
 }
