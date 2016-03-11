@@ -1,0 +1,8 @@
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\GUI.exe.config
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\GUI.exe
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\GUI.pdb
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.Properties.Resources.resources
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.exe
+c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.pdb
