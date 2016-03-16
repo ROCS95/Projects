@@ -120,6 +120,7 @@
             // pbxFoto
             // 
             this.pbxFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbxFoto.Image = Properties.Resources.users1;
             this.pbxFoto.Location = new System.Drawing.Point(370, 23);
             this.pbxFoto.Name = "pbxFoto";
             this.pbxFoto.Size = new System.Drawing.Size(114, 98);

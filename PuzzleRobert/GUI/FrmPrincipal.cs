@@ -1,5 +1,4 @@
-﻿
-using BO;
+﻿using BO;
 using Entidades;
 using System;
 using System.Collections.Generic;

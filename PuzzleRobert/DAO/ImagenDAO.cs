@@ -13,6 +13,15 @@ namespace DAO
 {
     public class ImagenDAO
     {
+        private NpgsqlConnection con;
+
+        public ImagenDAO()
+        {
+
+        }
+
+
+
         /// <summary>
         /// se conecta a la base de datos para inc\sertar la imagen de un usuario
         /// </summary>
@@ -89,6 +98,19 @@ namespace DAO
                 cmd.Parameters.AddWithValue(":id", id);
                 cmd.ExecuteReader();
             }
+        }
+
+        internal int InsertarImagen(Imagen imagen, NpgsqlConnection con)
+        {
+            string sql = @"INSERT INTO imagen(imagen) VALUES (:ima) returning id";
+            NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+
+            MemoryStream stream = new MemoryStream();
+            imagen.Foto.Save(stream, ImageFormat.Jpeg);
+            byte[] pic = stream.ToArray();
+
+            cmd.Parameters.AddWithValue("ima", pic);
+            return Convert.ToInt32(cmd.ExecuteScalar());
         }
     }
 }

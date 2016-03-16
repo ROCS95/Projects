@@ -49,31 +49,31 @@
     <Compile Include="EditarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditarUsuario.Designer.cs">
+    <Compile Include="EditarUsuario.designer.cs">
       <DependentUpon>EditarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLogin.Designer.cs">
+    <Compile Include="FrmLogin.designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrincipal.Designer.cs">
+    <Compile Include="FrmPrincipal.designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmRegistro.Designer.cs">
+    <Compile Include="FrmRegistro.designer.cs">
       <DependentUpon>FrmRegistro.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimiento.Designer.cs">
+    <Compile Include="Mantenimiento.designer.cs">
       <DependentUpon>Mantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
