@@ -1,0 +1,11 @@
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\BO.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\BO.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\DAO.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\Entidades.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\Npgsql.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\DAO.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\Entidades.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\bin\Debug\Npgsql.xml
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\obj\Debug\BO.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\BO\obj\Debug\BO.pdb

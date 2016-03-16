@@ -1,0 +1,4 @@
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\Entidades\bin\Debug\Entidades.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\Entidades\obj\Debug\Entidades.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\Entidades\obj\Debug\Entidades.pdb

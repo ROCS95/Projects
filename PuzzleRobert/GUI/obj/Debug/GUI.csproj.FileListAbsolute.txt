@@ -6,3 +6,16 @@ c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug
 c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.exe
 c:\users\robert\documents\visual studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.EditarUsuario.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.FrmLogin.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.FrmPrincipal.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.FrmRegistro.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.Mantenimiento.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\BO.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\Entidades.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\DAO.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\Npgsql.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\BO.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\Entidades.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\DAO.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\Npgsql.xml
