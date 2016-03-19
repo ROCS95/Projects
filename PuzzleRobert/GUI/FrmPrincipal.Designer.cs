@@ -38,6 +38,7 @@
             this.btndeletecat = new System.Windows.Forms.Button();
             this.btninsertdim = new System.Windows.Forms.Button();
             this.btndeletedim = new System.Windows.Forms.Button();
+            this.btnNuevoJuego = new System.Windows.Forms.Button();
             this.gbxUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -144,11 +145,23 @@
             this.btndeletedim.UseVisualStyleBackColor = true;
             this.btndeletedim.Visible = false;
             // 
+            // btnNuevoJuego
+            // 
+            this.btnNuevoJuego.Location = new System.Drawing.Point(555, 136);
+            this.btnNuevoJuego.Name = "btnNuevoJuego";
+            this.btnNuevoJuego.Size = new System.Drawing.Size(102, 75);
+            this.btnNuevoJuego.TabIndex = 7;
+            this.btnNuevoJuego.Text = "Nuevo Juego";
+            this.btnNuevoJuego.UseVisualStyleBackColor = true;
+            this.btnNuevoJuego.Visible = false;
+            this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 430);
+            this.Controls.Add(this.btnNuevoJuego);
             this.Controls.Add(this.btndeletedim);
             this.Controls.Add(this.btninsertdim);
             this.Controls.Add(this.btndeletecat);
@@ -179,5 +192,6 @@
         private System.Windows.Forms.Button btndeletecat;
         private System.Windows.Forms.Button btninsertdim;
         private System.Windows.Forms.Button btndeletedim;
+        private System.Windows.Forms.Button btnNuevoJuego;
     }
 }

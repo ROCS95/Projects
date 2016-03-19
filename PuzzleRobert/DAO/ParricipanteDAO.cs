@@ -74,16 +74,16 @@ namespace DAO
             {
                 participante.Id = i;
                 ImagenDAO idao = new ImagenDAO();
-                //idao.EditarImagen(participante.Imagen, participante.Imagen.Id);
+                //idao.EditarImagen(participante.Imagen, participante.Imagen.Id);no implementado
                 using (NpgsqlConnection con = new NpgsqlConnection(Configuracion.CadenaConexion))
                 {
                     con.Open();
-                    string sql = @"UPDATE participante SET id_dimension = :dim, usuario= :usu, nombre= :nom WHERE id = :idu;";
+                    string sql = @"UPDATE participante SET id_dimension = :dim, usuario= :usu, nombre= :nom, contrasena = :con WHERE id = :idu;";
                     NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
 
                     cmd.Parameters.AddWithValue("idu", participante.Id);
                     cmd.Parameters.AddWithValue("usu", participante.Usuario);
-                    //cmd.Parameters.AddWithValue("con", participante.Contrasena);contrasena= :con
+                    cmd.Parameters.AddWithValue("con", participante.Contrasena);
                     cmd.Parameters.AddWithValue("nom", participante.Nombre);
                     cmd.Parameters.AddWithValue("tel", participante.Telefono);
                     cmd.Parameters.AddWithValue("cor", participante.Correo);
@@ -171,11 +171,16 @@ namespace DAO
 
                     //Registrar categorias 
                     RegistrarCategorias(participante, con);
+                    tran.Commit();
                     return participante.Id > 0;
                 }
             }
             catch (Exception ex)
             {
+                if (tran != null)
+                {
+                    tran.Rollback();
+                }
                 throw new Exception(ex.Message);
             }
         }

@@ -58,6 +58,12 @@
     <Compile Include="FrmLogin.designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNuevoJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoJuego.Designer.cs">
+      <DependentUpon>FrmNuevoJuego.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoJuego.resx">
+      <DependentUpon>FrmNuevoJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
@@ -131,6 +140,9 @@
       <Project>{3e7cf7d3-eeb1-41af-afee-094bfbf97cc4}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jpg_jpeg-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -44,11 +44,14 @@ namespace BO
             {
                 throw new Exception("Seleccione al menos una categoría");
             }
-            if (!participante.Contrasena.Equals(contrasenaDos))
+            if (!participante.Contrasena.Equals(contrasenaDos) || participante.Contrasena == "")
             {
                 throw new Exception("Contraseñas no coinciden");
             }
-
+            if (participante.Nombre == "" || participante.Telefono == "" || participante.Correo == "")
+            {
+                throw new Exception("Por Favor no deje espacion vacios");
+            }
             return udao.Registrar(participante);
         }
 
@@ -70,9 +73,13 @@ namespace BO
             {
                 throw new Exception("Seleccione al menos una categoría");
             }
-            if (!participante.Contrasena.Equals(contrasenaDos))
+            if (!participante.Contrasena.Equals(contrasenaDos) || participante.Contrasena == "")
             {
                 throw new Exception("Contraseñas no coinciden");
+            }
+            if (participante.Nombre == "" || participante.Telefono == "" || participante.Correo == "")
+            {
+                throw new Exception("Por Favor no deje espacion vacios");
             }
 
             return udao.Editar(participante, i);

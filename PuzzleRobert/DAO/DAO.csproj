@@ -49,6 +49,7 @@
     <Compile Include="Configuracion.cs" />
     <Compile Include="DimensionDAO.cs" />
     <Compile Include="ImagenDAO.cs" />
+    <Compile Include="JuegoDAO.cs" />
     <Compile Include="ParricipanteDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

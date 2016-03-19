@@ -13,8 +13,6 @@ namespace DAO
 {
     public class ImagenDAO
     {
-        private NpgsqlConnection con;
-
         public ImagenDAO()
         {
 

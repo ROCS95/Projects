@@ -47,8 +47,8 @@
             this.chbCategorias = new System.Windows.Forms.CheckedListBox();
             this.label9 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.pbxFoto = new System.Windows.Forms.PictureBox();
             this.lblMensaje = new System.Windows.Forms.Label();
+            this.pbxFoto = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -208,18 +208,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // pbxFoto
-            // 
-            this.pbxFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxFoto.Image = Properties.Resources.users1;
-            this.pbxFoto.Location = new System.Drawing.Point(319, 12);
-            this.pbxFoto.Name = "pbxFoto";
-            this.pbxFoto.Size = new System.Drawing.Size(114, 98);
-            this.pbxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxFoto.TabIndex = 12;
-            this.pbxFoto.TabStop = false;
-            this.pbxFoto.Click += new System.EventHandler(this.pbxFoto_Click);
-            // 
             // lblMensaje
             // 
             this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -228,6 +216,18 @@
             this.lblMensaje.Size = new System.Drawing.Size(439, 19);
             this.lblMensaje.TabIndex = 19;
             this.lblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pbxFoto
+            // 
+            this.pbxFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbxFoto.Image = global::GUI.Properties.Resources.users1;
+            this.pbxFoto.Location = new System.Drawing.Point(319, 12);
+            this.pbxFoto.Name = "pbxFoto";
+            this.pbxFoto.Size = new System.Drawing.Size(114, 98);
+            this.pbxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxFoto.TabIndex = 12;
+            this.pbxFoto.TabStop = false;
+            this.pbxFoto.Click += new System.EventHandler(this.pbxFoto_Click);
             // 
             // FrmRegistro
             // 

@@ -36,12 +36,15 @@ namespace GUI
             };
 
             p = ubo.Autentificiar(p);
+            int j = p.Imagen.Id;
+            p.Contrasena = txtContrasena.Text ;
 
             if (p.Id > 0)
             {
                 FrmPrincipal prin = new FrmPrincipal()
                 {
-                    Participante = p
+                    Participante = p,
+                    IdImagen = j
                 };
                 prin.Show(this);
                 this.Hide();

@@ -16,6 +16,7 @@ namespace GUI
     {
         int admin;
         public Participante Participante { get; set; }
+        public int IdImagen { get; internal set; }
 
         public FrmPrincipal()
         {
@@ -38,6 +39,7 @@ namespace GUI
                 btninsertdim.Visible = true;
                 CargarCategorias();
                 CargarDimenciones();
+                btnNuevoJuego.Visible = true;
             }
         }
 
@@ -50,7 +52,8 @@ namespace GUI
         {
             EditarUsuario ed = new EditarUsuario()
             {
-                Participante = this.Participante
+                Participante = this.Participante,
+                IdImage = this.IdImagen
             };
             ed.Show(this);
 
@@ -120,6 +123,13 @@ namespace GUI
             {
                 CargarDimenciones();
             }
+        }
+
+        private void btnNuevoJuego_Click(object sender, EventArgs e)
+        {
+            FrmNuevoJuego nj = new FrmNuevoJuego();
+            nj.Show(this);
+            this.Hide();
         }
     }
 }

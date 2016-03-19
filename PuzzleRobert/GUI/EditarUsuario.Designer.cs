@@ -113,14 +113,14 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 33;
-            this.button1.Text = "Save";
+            this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pbxFoto
             // 
             this.pbxFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxFoto.Image = Properties.Resources.users1;
+            this.pbxFoto.Image = global::GUI.Properties.Resources.users1;
             this.pbxFoto.Location = new System.Drawing.Point(370, 23);
             this.pbxFoto.Name = "pbxFoto";
             this.pbxFoto.Size = new System.Drawing.Size(114, 98);
@@ -188,7 +188,6 @@
             // 
             // txtContrasenaDos
             // 
-            this.txtContrasenaDos.Enabled = false;
             this.txtContrasenaDos.Location = new System.Drawing.Point(175, 80);
             this.txtContrasenaDos.Name = "txtContrasenaDos";
             this.txtContrasenaDos.PasswordChar = '♠';
@@ -206,7 +205,6 @@
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Enabled = false;
             this.txtContrasena.Location = new System.Drawing.Point(175, 54);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.PasswordChar = '♠';

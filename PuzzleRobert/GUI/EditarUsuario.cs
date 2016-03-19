@@ -21,6 +21,7 @@ namespace GUI
         private CategoriaBO cbo;
 
         public Participante Participante { get; internal set; }
+        public int IdImage { get; internal set; }
 
         public EditarUsuario()
         {
@@ -37,6 +38,8 @@ namespace GUI
                 cbo = new CategoriaBO();
                 txtUsuario.Text = Participante.Usuario;
                 txtNombreCompleto.Text = Participante.Nombre;
+                txtContrasena = Participante.Contrasena;
+                txtContrasenaDos = Participante.Contrasena;
                 txtTelefono.Text = Participante.Telefono;
                 txtCorreo.Text = Participante.Correo;
                 cbxDimension.DataSource = dbo.CargarDimensiones();
@@ -63,19 +66,18 @@ namespace GUI
                 {
                     Foto = pbxFoto.Image
                 };
-                Participante p = new Participante()
-                {
-                    Usuario = txtUsuario.Text.Trim(),
-                    Contrasena = txtContrasena.Text.Trim(),
-                    Nombre = txtNombreCompleto.Text.Trim(),
-                    Telefono = txtTelefono.Text.Trim(),
-                    Correo = txtCorreo.Text.Trim(),
-                    Dimension = (Dimension)cbxDimension.SelectedItem,
-                    Imagen = i,
-                    Categorias = categorias
-                };
+                Participante.Usuario = txtUsuario.Text.Trim();
+                Participante.Contrasena = txtContrasena.Text.Trim();
+                Participante.Nombre = txtNombreCompleto.Text.Trim();
+                Participante.Telefono = txtTelefono.Text.Trim();
+                Participante.Correo = txtCorreo.Text.Trim();
+                Participante.Dimension = (Dimension)cbxDimension.SelectedItem;
+                Participante.Imagen = i;
+                Participante.Imagen.Id = IdImage;
+                Participante.Categorias = categorias;
+                
 
-                if (pbo.Editar(p, txtContrasenaDos.Text.Trim(), Participante.Id))
+                if (pbo.Editar(Participante, txtContrasenaDos.Text.Trim(), Participante.Id))
                 {
                     MessageBox.Show("Usuario Editado con éxito");
                     this.Close();
