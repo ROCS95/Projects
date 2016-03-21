@@ -55,6 +55,11 @@ namespace BO
             return udao.Registrar(participante);
         }
 
+        public void RefrescarUsuario(Participante participante)
+        {
+            udao.RefrescarUsuario(participante);
+        }
+
         /// <summary>
         /// verifica que los espacios requeridos para editar un usuario
         /// no esten vascion y llama al metodo udao.Editar(participante, i);

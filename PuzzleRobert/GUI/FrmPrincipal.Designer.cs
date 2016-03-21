@@ -39,6 +39,7 @@
             this.btninsertdim = new System.Windows.Forms.Button();
             this.btndeletedim = new System.Windows.Forms.Button();
             this.btnNuevoJuego = new System.Windows.Forms.Button();
+            this.btnPublicar = new System.Windows.Forms.Button();
             this.gbxUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -156,11 +157,23 @@
             this.btnNuevoJuego.Visible = false;
             this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
             // 
+            // btnPublicar
+            // 
+            this.btnPublicar.Location = new System.Drawing.Point(555, 248);
+            this.btnPublicar.Name = "btnPublicar";
+            this.btnPublicar.Size = new System.Drawing.Size(102, 75);
+            this.btnPublicar.TabIndex = 8;
+            this.btnPublicar.Text = "Publicar Juego";
+            this.btnPublicar.UseVisualStyleBackColor = true;
+            this.btnPublicar.Visible = false;
+            this.btnPublicar.Click += new System.EventHandler(this.btnPublicar_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 430);
+            this.ClientSize = new System.Drawing.Size(695, 347);
+            this.Controls.Add(this.btnPublicar);
             this.Controls.Add(this.btnNuevoJuego);
             this.Controls.Add(this.btndeletedim);
             this.Controls.Add(this.btninsertdim);
@@ -193,5 +206,6 @@
         private System.Windows.Forms.Button btninsertdim;
         private System.Windows.Forms.Button btndeletedim;
         private System.Windows.Forms.Button btnNuevoJuego;
+        private System.Windows.Forms.Button btnPublicar;
     }
 }

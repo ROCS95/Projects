@@ -258,6 +258,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Name = "EditarUsuario";
             this.Text = "EditarUsuario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EditarUsuario_FormClosed);
             this.Load += new System.EventHandler(this.EditarUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxFoto)).EndInit();
             this.ResumeLayout(false);

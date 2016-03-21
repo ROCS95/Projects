@@ -84,7 +84,7 @@ namespace DAO
             {
                 con.Open();
                 string sql = @"UPDATE imagen
-                                imagen= :ima
+                               SET imagen= :ima
                                 WHERE id = :id;";
                 NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
 
@@ -109,6 +109,22 @@ namespace DAO
 
             cmd.Parameters.AddWithValue("ima", pic);
             return Convert.ToInt32(cmd.ExecuteScalar());
+        }
+
+        internal void EditarImagen(Imagen imagen, int id, NpgsqlConnection con)
+        {
+            string sql = @"UPDATE imagen
+                               SET imagen= :ima
+                                WHERE id = :id;";
+            NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+
+            MemoryStream stream = new MemoryStream();
+            imagen.Foto.Save(stream, ImageFormat.Jpeg);
+            byte[] pic = stream.ToArray();
+
+            cmd.Parameters.AddWithValue("ima", pic);
+            cmd.Parameters.AddWithValue(":id", id);
+            cmd.ExecuteReader();
         }
     }
 }

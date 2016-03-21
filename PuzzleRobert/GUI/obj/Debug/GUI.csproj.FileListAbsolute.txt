@@ -20,3 +20,4 @@ C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\DAO.pdb
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\bin\Debug\Npgsql.xml
 C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.FrmNuevoJuego.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PuzzleRobert\GUI\obj\Debug\GUI.FrmPublicar.resources

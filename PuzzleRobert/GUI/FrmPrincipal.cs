@@ -40,6 +40,7 @@ namespace GUI
                 CargarCategorias();
                 CargarDimenciones();
                 btnNuevoJuego.Visible = true;
+                btnPublicar.Visible = true;
             }
         }
 
@@ -55,7 +56,15 @@ namespace GUI
                 Participante = this.Participante,
                 IdImage = this.IdImagen
             };
-            ed.Show(this);
+            if (ed.ShowDialog(this) == DialogResult.OK)
+            {
+                ParticipanteBO pbo = new ParticipanteBO();
+                //Refrescar los datos del usuarios en el cuadro de texto
+                pbo.RefrescarUsuario(Participante);
+                lblNombre.Text = this.Participante.Nombre;
+                pictureBox1.Image = this.Participante.Imagen != null ? this.Participante.Imagen.Foto : null;
+                lblUsuario.Text = this.Participante.Usuario;
+            }
 
         }
 
@@ -129,6 +138,13 @@ namespace GUI
         {
             FrmNuevoJuego nj = new FrmNuevoJuego();
             nj.Show(this);
+            this.Hide();
+        }
+
+        private void btnPublicar_Click(object sender, EventArgs e)
+        {
+            FrmPublicar pub = new FrmPublicar();
+            pub.Show(this);
             this.Hide();
         }
     }

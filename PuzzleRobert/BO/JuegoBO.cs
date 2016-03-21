@@ -23,5 +23,15 @@ namespace BO
             }
             return jdao.RegistrarJuego(juego);
         }
+
+        public List<Juego> CargarJuegos()
+        {
+            return jdao.CargarJuegos();
+        }
+
+        public void HacerJuegoBublico(Juego j)
+        {
+            jdao.HacerJuegoBublico(j);
+        }
     }
 }

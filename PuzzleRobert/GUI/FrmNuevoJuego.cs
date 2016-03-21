@@ -83,7 +83,7 @@ namespace GUI
                     Dimension = (Dimension)cbxDimenciones.SelectedItem,
                     Categoria = (Categoria)cbxCategorias.SelectedItem,
                     Descripcion = tbxDescripcion.Text,
-                    Imagen = i,
+                    Foto = i,
                     FechaInicio = dtpInicio.Value,
                     FechaFinal = dtpFinal.Value
                 };

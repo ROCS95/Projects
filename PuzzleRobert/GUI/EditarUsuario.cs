@@ -38,8 +38,8 @@ namespace GUI
                 cbo = new CategoriaBO();
                 txtUsuario.Text = Participante.Usuario;
                 txtNombreCompleto.Text = Participante.Nombre;
-                txtContrasena = Participante.Contrasena;
-                txtContrasenaDos = Participante.Contrasena;
+                txtContrasena.Text = Participante.Contrasena;
+                txtContrasenaDos.Text = Participante.Contrasena;
                 txtTelefono.Text = Participante.Telefono;
                 txtCorreo.Text = Participante.Correo;
                 cbxDimension.DataSource = dbo.CargarDimensiones();
@@ -80,6 +80,7 @@ namespace GUI
                 if (pbo.Editar(Participante, txtContrasenaDos.Text.Trim(), Participante.Id))
                 {
                     MessageBox.Show("Usuario Editado con éxito");
+                    this.DialogResult = DialogResult.OK;
                     this.Close();
                 }
                 else
@@ -109,6 +110,11 @@ namespace GUI
             {
                 lblMensaje.Text = ex.Message;
             }
+        }
+
+        private void EditarUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

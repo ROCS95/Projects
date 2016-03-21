@@ -10,7 +10,7 @@ namespace Entidades
     {
         public string Descripcion { get; set; }
         public Dimension Dimension { get; set; }
-        public Imagen Imagen { get; set; }
+        public Imagen Foto { get; set; }
         public Categoria Categoria { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFinal { get; set; }

@@ -33,12 +33,15 @@ namespace DAO
                     Dimension d = new Dimension()
                     {
                         Id = reader.GetInt32(0),
-                        Descripcion = reader.GetString(1)
+                        Descripcion = reader.GetString(1),
+                        
                     };
                     dimensiones.Add(d);
                 }
+                con.Close();
             }
             return dimensiones;
+            
         }
 
         /// <summary>
