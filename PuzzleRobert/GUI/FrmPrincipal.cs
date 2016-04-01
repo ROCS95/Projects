@@ -16,11 +16,14 @@ namespace GUI
     {
         int admin;
         public Participante Participante { get; set; }
+        public Juego Juegos { get; set; }
         public int IdImagen { get; internal set; }
+        JuegoBO jbo;
 
         public FrmPrincipal()
         {
             InitializeComponent();
+            jbo = new JuegoBO();
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
@@ -33,15 +36,30 @@ namespace GUI
             {
                 listBox1.Visible = true;
                 listBox2.Visible = true;
-                btndeletecat.Visible = true;
-                btndeletedim.Visible = true;
                 btninsertcat.Visible = true;
                 btninsertdim.Visible = true;
                 CargarCategorias();
                 CargarDimenciones();
-                btnNuevoJuego.Visible = true;
                 btnPublicar.Visible = true;
             }
+            else
+            {
+                btnNuevoJuego.Text = "Jugar";
+                dgvJuegos.Visible = true;
+                Cargarjuegos(Participante);
+                cbxjuegos.Visible = true;
+                Cargarcombox(Participante);
+            }
+        }
+
+        private void Cargarcombox(Participante participante)
+        {
+            cbxjuegos.Items.AddRange(jbo.Cargarcombox(participante).ToArray<Juego>());
+        }
+
+        private void Cargarjuegos(Participante Participante)
+        {
+            dgvJuegos.DataSource = jbo.Cargarjuegos(Participante);
         }
 
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
@@ -64,6 +82,13 @@ namespace GUI
                 lblNombre.Text = this.Participante.Nombre;
                 pictureBox1.Image = this.Participante.Imagen != null ? this.Participante.Imagen.Foto : null;
                 lblUsuario.Text = this.Participante.Usuario;
+                if (Participante.TipoUsuario == 2)
+                {
+                    Cargarjuegos(Participante);
+                    cbxjuegos.Items.Clear();
+                    Cargarcombox(Participante);
+                }
+
             }
 
         }
@@ -86,7 +111,6 @@ namespace GUI
             List<Categoria> categorias = new List<Categoria>();
             CategoriaBO catbo = new CategoriaBO();
             categorias = catbo.CargarCategorias();
-            //listBox1.Items.Add(categorias);
             listBox1.DisplayMember = "Categoria";
 
             listBox1.DataSource = categorias;
@@ -100,7 +124,6 @@ namespace GUI
             List<Dimension> dimenciones = new List<Dimension>();
             DimensionBO dimbo = new DimensionBO();
             dimenciones = dimbo.CargarDimensiones();
-            //listBox2.Items.Add(categorias);
             listBox2.DisplayMember = "Dimension, ID";
 
             listBox2.DataSource = dimenciones;
@@ -108,10 +131,10 @@ namespace GUI
 
         private void btninsertcat_Click(object sender, EventArgs e)
         {
-            admin = 1;
+            Participante.TipoUsuario = 1;
             Mantenimiento man = new Mantenimiento()
             {
-                Admin = admin
+                Admin = Participante.TipoUsuario
             };
             man.Show(this);
             if (man.DialogResult == DialogResult.OK)
@@ -136,9 +159,31 @@ namespace GUI
 
         private void btnNuevoJuego_Click(object sender, EventArgs e)
         {
-            FrmNuevoJuego nj = new FrmNuevoJuego();
-            nj.Show(this);
-            this.Hide();
+            if (Participante.TipoUsuario == 1)
+            {
+                FrmNuevoJuego nj = new FrmNuevoJuego();
+                nj.Show(this);
+                this.Hide();
+            }
+            else
+            {
+                Juegos = (Juego)cbxjuegos.SelectedItem;
+                if (Juegos != null)
+                {
+                    FrmJuego jue = new FrmJuego()
+                    {
+                        Participante = Participante,
+                        Juegos = Juegos
+                    };
+                    this.Hide();
+                    jue.Show(this);
+                }
+                else
+                {
+                    lblMensaje.Text = "Seleccione un juego";
+                }
+            }
+
         }
 
         private void btnPublicar_Click(object sender, EventArgs e)

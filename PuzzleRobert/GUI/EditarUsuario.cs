@@ -44,6 +44,7 @@ namespace GUI
                 txtCorreo.Text = Participante.Correo;
                 cbxDimension.DataSource = dbo.CargarDimensiones();
                 chbCategorias.Items.AddRange(cbo.CargarCategorias().ToArray<Categoria>());
+                pbxFoto.Image = Participante.Imagen.Foto;
             }
             catch (Exception ex)
             {

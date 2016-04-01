@@ -37,6 +37,7 @@ namespace DAO
                     };
                     categorias.Add(d);
                 }
+                con.Close();
             }
             return categorias;
         }
@@ -58,6 +59,7 @@ namespace DAO
                     cmd.Parameters.AddWithValue("cat", text);
 
                     cmd.ExecuteNonQuery();
+                    con.Close();
                 }
             }
             catch (Exception ex)

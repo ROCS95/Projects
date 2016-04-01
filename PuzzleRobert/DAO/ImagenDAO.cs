@@ -21,7 +21,7 @@ namespace DAO
 
 
         /// <summary>
-        /// se conecta a la base de datos para inc\sertar la imagen de un usuario
+        /// se conecta a la base de datos para incsertar la imagen de un usuario
         /// </summary>
         /// <param name="imagen"></param>
         /// <returns>returna in int</returns>
@@ -98,6 +98,12 @@ namespace DAO
             }
         }
 
+        /// <summary>
+        /// se conecta a la base de datos para incsertar la imagen de un usuario
+        /// </summary>
+        /// <param name="imagen">imagen para incertar</param>
+        /// <param name="con">coneccion sql</param>
+        /// <returns>retorna el id de la imagen el la Base de Datos</returns>
         internal int InsertarImagen(Imagen imagen, NpgsqlConnection con)
         {
             string sql = @"INSERT INTO imagen(imagen) VALUES (:ima) returning id";

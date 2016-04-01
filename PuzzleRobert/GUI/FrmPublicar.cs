@@ -35,6 +35,7 @@ namespace GUI
             Juego j = new Juego();
             j = (Juego)lbxJuegos.SelectedItem;
             jbo.HacerJuegoBublico(j);
+            this.Close();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

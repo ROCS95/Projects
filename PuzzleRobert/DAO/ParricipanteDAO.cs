@@ -42,7 +42,7 @@ namespace DAO
                     if (reader.Read())
                     {
                         p.Id = reader.GetInt32(0);
-                        p.Dimension = reader.IsDBNull(1) ? new Dimension() : new Dimension { Id = reader.GetInt32(0) };
+                        p.Dimension = reader.IsDBNull(1) ? new Dimension() : new Dimension { Id = reader.GetInt32(1) };
                         ImagenDAO idao = new ImagenDAO();
                         p.Imagen = reader.IsDBNull(2) ? new Imagen() : idao.CargarFoto(reader.GetInt32(2));
                         p.Imagen.Id = reader.GetInt32(2);
@@ -137,7 +137,7 @@ namespace DAO
                     con.Open();
                     
                     ImagenDAO idao = new ImagenDAO();
-                    idao.EditarImagen(participante.Imagen, participante.Imagen.Id, con);
+                    idao.EditarImagen(participante.Imagen, participante.Imagen.Id);
                     string sql = @"UPDATE participante SET id_dimension = :dim,
                                     usuario= :usu, nombre= :nom, contrasena = :con 
                                     WHERE id = :idu;";
@@ -218,7 +218,7 @@ namespace DAO
                 {
                     con.Open();
                     ImagenDAO idao = new ImagenDAO();
-                    participante.Imagen.Id = idao.InsertarImagen(participante.Imagen, con);
+                    participante.Imagen.Id = idao.InsertarImagen(participante.Imagen);
                     string sql = @"INSERT INTO participante(
                                 id_imagen, usuario, contrasena, nombre,
                                 telefono, correo, id_dimension, tipo_usuario) VALUES (
@@ -236,7 +236,7 @@ namespace DAO
                     participante.Id = Convert.ToInt32(cmd.ExecuteScalar());
 
                     //Registrar categorias 
-                    RegistrarCategorias(participante, con);
+                    RegistrarCategorias(participante);
                     
                     con.Close();
                     return participante.Id > 0;
@@ -244,10 +244,6 @@ namespace DAO
             }
             catch (Exception ex)
             {
-                if (con != null)
-                {
-                    con.Close();
-                }
                 throw new Exception(ex.Message);
             }
         }

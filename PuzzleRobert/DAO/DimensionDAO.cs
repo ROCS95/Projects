@@ -64,6 +64,7 @@ namespace DAO
                     cmd.Parameters.AddWithValue("dim", dim);
 
                     cmd.ExecuteNonQuery();
+                    con.Close();
                 }
             }
             catch (Exception ex)

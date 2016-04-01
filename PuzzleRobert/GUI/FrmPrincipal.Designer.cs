@@ -40,8 +40,12 @@
             this.btndeletedim = new System.Windows.Forms.Button();
             this.btnNuevoJuego = new System.Windows.Forms.Button();
             this.btnPublicar = new System.Windows.Forms.Button();
+            this.dgvJuegos = new System.Windows.Forms.DataGridView();
+            this.cbxjuegos = new System.Windows.Forms.ComboBox();
+            this.lblMensaje = new System.Windows.Forms.Label();
             this.gbxUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJuegos)).BeginInit();
             this.SuspendLayout();
             // 
             // gbxUsuario
@@ -154,7 +158,6 @@
             this.btnNuevoJuego.TabIndex = 7;
             this.btnNuevoJuego.Text = "Nuevo Juego";
             this.btnNuevoJuego.UseVisualStyleBackColor = true;
-            this.btnNuevoJuego.Visible = false;
             this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
             // 
             // btnPublicar
@@ -168,11 +171,45 @@
             this.btnPublicar.Visible = false;
             this.btnPublicar.Click += new System.EventHandler(this.btnPublicar_Click);
             // 
+            // dgvJuegos
+            // 
+            this.dgvJuegos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgvJuegos.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvJuegos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvJuegos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dgvJuegos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJuegos.Location = new System.Drawing.Point(34, 51);
+            this.dgvJuegos.Name = "dgvJuegos";
+            this.dgvJuegos.Size = new System.Drawing.Size(483, 227);
+            this.dgvJuegos.TabIndex = 9;
+            this.dgvJuegos.Visible = false;
+            // 
+            // cbxjuegos
+            // 
+            this.cbxjuegos.FormattingEnabled = true;
+            this.cbxjuegos.Location = new System.Drawing.Point(34, 284);
+            this.cbxjuegos.Name = "cbxjuegos";
+            this.cbxjuegos.Size = new System.Drawing.Size(483, 21);
+            this.cbxjuegos.TabIndex = 10;
+            this.cbxjuegos.Visible = false;
+            // 
+            // lblMensaje
+            // 
+            this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje.Location = new System.Drawing.Point(69, 328);
+            this.lblMensaje.Name = "lblMensaje";
+            this.lblMensaje.Size = new System.Drawing.Size(439, 19);
+            this.lblMensaje.TabIndex = 20;
+            this.lblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 347);
+            this.Controls.Add(this.lblMensaje);
+            this.Controls.Add(this.cbxjuegos);
+            this.Controls.Add(this.dgvJuegos);
             this.Controls.Add(this.btnPublicar);
             this.Controls.Add(this.btnNuevoJuego);
             this.Controls.Add(this.btndeletedim);
@@ -183,12 +220,14 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.gbxUsuario);
             this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPrincipal";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.gbxUsuario.ResumeLayout(false);
             this.gbxUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJuegos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -207,5 +246,8 @@
         private System.Windows.Forms.Button btndeletedim;
         private System.Windows.Forms.Button btnNuevoJuego;
         private System.Windows.Forms.Button btnPublicar;
+        private System.Windows.Forms.DataGridView dgvJuegos;
+        private System.Windows.Forms.ComboBox cbxjuegos;
+        private System.Windows.Forms.Label lblMensaje;
     }
 }

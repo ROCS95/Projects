@@ -16,5 +16,10 @@ namespace Entidades
         public DateTime FechaFinal { get; set; }
         public int Id { get; set; }
 
+        public override string ToString()
+        {
+            return Descripcion;
+        }
+
     }
 }
