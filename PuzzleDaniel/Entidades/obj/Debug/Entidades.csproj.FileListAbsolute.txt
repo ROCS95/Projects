@@ -1,0 +1,20 @@
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\Entidades\bin\Debug\Entidades.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\Entidades\bin\Debug\Entidades.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\Entidades\obj\Debug\Entidades.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\Entidades\obj\Debug\Entidades.pdb
+F:\PuzzleDaniel\Entidades\bin\Debug\Entidades.dll
+F:\PuzzleDaniel\Entidades\bin\Debug\Entidades.pdb
+F:\PuzzleDaniel\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+F:\PuzzleDaniel\Entidades\obj\Debug\Entidades.dll
+F:\PuzzleDaniel\Entidades\obj\Debug\Entidades.pdb
+D:\PuzzleDaniel\Entidades\bin\Debug\Entidades.dll
+D:\PuzzleDaniel\Entidades\bin\Debug\Entidades.pdb
+D:\PuzzleDaniel\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\PuzzleDaniel\Entidades\obj\Debug\Entidades.dll
+D:\PuzzleDaniel\Entidades\obj\Debug\Entidades.pdb
+E:\PuzzleDaniel\Entidades\bin\Debug\Entidades.dll
+E:\PuzzleDaniel\Entidades\bin\Debug\Entidades.pdb
+E:\PuzzleDaniel\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\PuzzleDaniel\Entidades\obj\Debug\Entidades.dll
+E:\PuzzleDaniel\Entidades\obj\Debug\Entidades.pdb

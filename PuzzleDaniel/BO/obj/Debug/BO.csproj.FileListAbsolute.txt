@@ -1,0 +1,53 @@
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\BO.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\BO.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\DAO.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\Entidades.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\DAO.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\bin\Debug\Entidades.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\obj\Debug\BO.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\BO\obj\Debug\BO.pdb
+F:\PuzzleDaniel\BO\bin\Debug\BO.dll
+F:\PuzzleDaniel\BO\bin\Debug\BO.pdb
+F:\PuzzleDaniel\BO\bin\Debug\DAO.dll
+F:\PuzzleDaniel\BO\bin\Debug\Entidades.dll
+F:\PuzzleDaniel\BO\bin\Debug\Npgsql.dll
+F:\PuzzleDaniel\BO\bin\Debug\DAO.pdb
+F:\PuzzleDaniel\BO\bin\Debug\Entidades.pdb
+F:\PuzzleDaniel\BO\bin\Debug\Npgsql.xml
+F:\PuzzleDaniel\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+F:\PuzzleDaniel\BO\obj\Debug\BO.dll
+F:\PuzzleDaniel\BO\obj\Debug\BO.pdb
+D:\PuzzleDaniel\BO\bin\Debug\BO.dll
+D:\PuzzleDaniel\BO\bin\Debug\BO.pdb
+D:\PuzzleDaniel\BO\bin\Debug\DAO.dll
+D:\PuzzleDaniel\BO\bin\Debug\Entidades.dll
+D:\PuzzleDaniel\BO\bin\Debug\Npgsql.dll
+D:\PuzzleDaniel\BO\bin\Debug\DAO.pdb
+D:\PuzzleDaniel\BO\bin\Debug\Entidades.pdb
+D:\PuzzleDaniel\BO\bin\Debug\Npgsql.xml
+D:\PuzzleDaniel\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+D:\PuzzleDaniel\BO\obj\Debug\BO.dll
+D:\PuzzleDaniel\BO\obj\Debug\BO.pdb
+E:\PuzzleDaniel\BO\bin\Debug\BO.dll
+E:\PuzzleDaniel\BO\bin\Debug\BO.pdb
+E:\PuzzleDaniel\BO\bin\Debug\DAO.dll
+E:\PuzzleDaniel\BO\bin\Debug\Entidades.dll
+E:\PuzzleDaniel\BO\bin\Debug\Npgsql.dll
+E:\PuzzleDaniel\BO\bin\Debug\DAO.pdb
+E:\PuzzleDaniel\BO\bin\Debug\Entidades.pdb
+E:\PuzzleDaniel\BO\bin\Debug\Npgsql.xml
+E:\PuzzleDaniel\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+E:\PuzzleDaniel\BO\obj\Debug\BO.dll
+E:\PuzzleDaniel\BO\obj\Debug\BO.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\BO.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\BO.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\DAO.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\Entidades.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\Npgsql.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\DAO.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\bin\Debug\Npgsql.xml
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\obj\Debug\BO.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\BO\obj\Debug\BO.pdb

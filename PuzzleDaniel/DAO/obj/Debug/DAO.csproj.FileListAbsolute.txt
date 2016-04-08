@@ -1,0 +1,43 @@
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\bin\Debug\DAO.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\bin\Debug\DAO.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\bin\Debug\Entidades.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\bin\Debug\Entidades.pdb
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\obj\Debug\DAO.dll
+c:\users\dani\documents\visual studio 2015\Projects\PuzzleDaniel\DAO\obj\Debug\DAO.pdb
+F:\PuzzleDaniel\DAO\bin\Debug\DAO.dll
+F:\PuzzleDaniel\DAO\bin\Debug\DAO.pdb
+F:\PuzzleDaniel\DAO\bin\Debug\Entidades.dll
+F:\PuzzleDaniel\DAO\bin\Debug\Npgsql.dll
+F:\PuzzleDaniel\DAO\bin\Debug\Entidades.pdb
+F:\PuzzleDaniel\DAO\bin\Debug\Npgsql.xml
+F:\PuzzleDaniel\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+F:\PuzzleDaniel\DAO\obj\Debug\DAO.dll
+F:\PuzzleDaniel\DAO\obj\Debug\DAO.pdb
+D:\PuzzleDaniel\DAO\bin\Debug\DAO.dll
+D:\PuzzleDaniel\DAO\bin\Debug\DAO.pdb
+D:\PuzzleDaniel\DAO\bin\Debug\Entidades.dll
+D:\PuzzleDaniel\DAO\bin\Debug\Npgsql.dll
+D:\PuzzleDaniel\DAO\bin\Debug\Entidades.pdb
+D:\PuzzleDaniel\DAO\bin\Debug\Npgsql.xml
+D:\PuzzleDaniel\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\PuzzleDaniel\DAO\obj\Debug\DAO.dll
+D:\PuzzleDaniel\DAO\obj\Debug\DAO.pdb
+E:\PuzzleDaniel\DAO\bin\Debug\DAO.dll
+E:\PuzzleDaniel\DAO\bin\Debug\DAO.pdb
+E:\PuzzleDaniel\DAO\bin\Debug\Entidades.dll
+E:\PuzzleDaniel\DAO\bin\Debug\Npgsql.dll
+E:\PuzzleDaniel\DAO\bin\Debug\Entidades.pdb
+E:\PuzzleDaniel\DAO\bin\Debug\Npgsql.xml
+E:\PuzzleDaniel\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\PuzzleDaniel\DAO\obj\Debug\DAO.dll
+E:\PuzzleDaniel\DAO\obj\Debug\DAO.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\DAO.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\DAO.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\Entidades.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\Npgsql.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\bin\Debug\Npgsql.xml
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\obj\Debug\DAO.dll
+C:\Users\Robert\Desktop\PuzzleDaniel\DAO\obj\Debug\DAO.pdb
