@@ -1,0 +1,9 @@
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\bin\Debug\WebServiceAllanMurillo.exe.config
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.csprojResolveAssemblyReference.cache
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.GUI.FrmPrincipal.resources
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.Properties.Resources.resources
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.csproj.GenerateResource.Cache
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\bin\Debug\WebServiceAllanMurillo.exe
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\bin\Debug\WebServiceAllanMurillo.pdb
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.exe
+c:\users\allan\documents\visual studio 2015\Projects\WebServiceAllanMurillo\WebServiceAllanMurillo\obj\Debug\WebServiceAllanMurillo.pdb
